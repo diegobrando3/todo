@@ -3,9 +3,11 @@ Bu 'todo' uygulaması OOP tabanlı, JSON kullanarak oluşturulmuş, CLI bir uygu
 
 ## Özellikler
 
-- Hata yönetimi, kullanıcı desteği yüksek.
+- Hata yönetimi, kullanıcı desteği falan.
 - JSON ile kalıcı kaydetme.
 - Ve benim kodumun AI'dan neredeyse hiç yardım almadan yazmam :)
+- peki biraz yardım aldım
+- çok fazla aldım
 
 ## Nasıl çalıştırılır?
 

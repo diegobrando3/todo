@@ -28,7 +28,7 @@ komut = sys.argv[1].lower()
 
 if komut == "add":
     if len(sys.argv) < 3:
-        print("Görev yaz lan: python main.py add \"Anamı siker gibi çalış\"")
+        print("Görev yaz: python main.py add \"Görev içeriği\"")
     else:
         gorev = " ".join(sys.argv[2:])
         todos.append({
@@ -42,7 +42,7 @@ if komut == "add":
 
 elif komut == "list":
     if not todos:
-        print("Henüz görev yok amcık")
+        print("Henüz görev yok")
     else:
         for t in todos:
             isaret = "✅" if t["tamam"] else "⬜"
@@ -76,7 +76,7 @@ elif komut == "clear":
     if confirm.lower() == "e":
         todos.clear()
         save_todos(todos)
-        print("Her şey silindi orospu çocuğu")
+        print("Her şey silindi.")
 
 else:
     print("Bilinmeyen komut. add, list, done, delete, clear yaz")
