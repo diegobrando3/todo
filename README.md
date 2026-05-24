@@ -19,5 +19,5 @@ git clone https://github.com/diegobrando3/todo.git
 cd todo
 
 #3. Çalıştır
-todo.py
+python main.py #add | list | done | delete | clear 
 
